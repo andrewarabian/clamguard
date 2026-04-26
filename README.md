@@ -134,6 +134,6 @@ sudo bash clamguard.sh --target /home --action quarantine
 
 #### Please report all issues
 
-https://github.com/andrewarabian/usb-warden/issues
+https://github.com/andrewarabian/clamguard/issues
 
 ---
