@@ -129,3 +129,11 @@ sudo bash clamguard.sh --target /home --action quarantine
 | `clamguard` | Compiled binary |
 | `clamguard.sh` | Bash fallback |
 | `Makefile` | Build system |
+
+---
+
+#### Please report all issues
+
+https://github.com/andrewarabian/usb-warden/issues
+
+---
