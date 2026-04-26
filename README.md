@@ -4,6 +4,8 @@ Clamguard is a wrapper around ClamAV's `clamscan` built for beginner to intermed
 
 ClamAV-based malware scanner for Linux. Live TUI with progress tracking, virus database updates, quarantine, and structured report export. Runs as root.
 
+<img width="888" height="163" alt="image" src="https://github.com/user-attachments/assets/3daa2246-0eaf-4cc8-90d2-fd0a69d2b953" />
+
 ---
 
 ## Setup
