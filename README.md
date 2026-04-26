@@ -1,4 +1,4 @@
-# ClamGuard
+# Clamguard
 
 ClamGuard is a wrapper around ClamAV's `clamscan` built for beginner to intermediate Linux users. It handles virus database updates, scan profiles, quarantine, and reporting through a guided interface. It is not a replacement for `clamscan` and was never intended to be learning `clamscan` directly is encouraged. ClamGuard exists to make ClamAV accessible while that learning happens.
 
