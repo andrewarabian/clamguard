@@ -126,9 +126,8 @@ sudo bash clamguard.sh --target /home --action quarantine
 |---|---|
 | `setup.sh` | First-time install — detects distro, installs ClamAV, pulls definitions |
 | `clamguard.c` | C source — primary implementation |
-| `clamguard` | Compiled binary |
-| `clamguard.sh` | Bash fallback |
 | `Makefile` | Build system |
+| `clamguard` | Compiled binary |
 
 ---
 
