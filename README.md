@@ -66,8 +66,8 @@ sudo clamguard --no-color --target /var --action report
 
 | Profile | Behaviour |
 |---|---|
-| `recommended` | Excludes `/proc /sys /dev /run` — safe for most scans |
-| `full` | No exclusions — scans everything |
+| `recommended` | Excludes `/proc /sys /dev /run` | Safe for most scans |
+| `full` | No exclusions | Scans everything |
 | `custom` | Use `--exclude` to specify paths manually |
 
 ---
@@ -76,9 +76,9 @@ sudo clamguard --no-color --target /var --action report
 
 | Action | Behaviour |
 |---|---|
-| `report` | Log detections only — no files modified |
+| `report` | Log detections only | No files modified |
 | `quarantine` | Move detections to `/var/quarantine/clamguard/TIMESTAMP/`, set `chmod 000`, log SHA-256 |
-| `remove` | Permanently delete detections — requires `--i-accept-risk` and interactive confirmation |
+| `remove` | Permanently delete detections | Requires `--i-accept-risk` and interactive confirmation |
 
 > System-critical paths (`/bin`, `/sbin`, `/usr/bin`, `/boot`, `/lib`) are never auto-acted on regardless of action. They are flagged for manual review.
 
@@ -124,8 +124,8 @@ sudo bash clamguard.sh --target /home --action quarantine
 
 | File | Description |
 |---|---|
-| `setup.sh` | First-time install — detects distro, installs ClamAV, pulls definitions |
-| `clamguard.c` | C source — primary implementation |
+| `setup.sh` | First-time install | Detects distro, installs ClamAV, pulls definitions |
+| `clamguard.c` | C source | Primary implementation |
 | `Makefile` | Build system |
 | `clamguard` | Compiled binary |
 
