@@ -7,9 +7,10 @@ ClamAV-based malware scanner for Linux. Live TUI with progress tracking, virus d
 <img width="888" height="163" alt="image" src="https://github.com/user-attachments/assets/b546d156-cf63-423e-aa4c-5fffd454ab3b" />
 
 ---
+
 ## Dependencies
 
-**Runtime** — ClamAV and freshclam (virus definitions updater):
+`clamav` and `clamav-freshclam` are required at runtime. `setup.sh` installs these automatically
 
 | Distro / Family | Install command |
 |---|---|
@@ -22,12 +23,12 @@ ClamAV-based malware scanner for Linux. Live TUI with progress tracking, virus d
 | FreeBSD | `sudo pkg install clamav` |
 | macOS (Homebrew) | `brew install clamav` |
 
-**Build** — only needed if compiling from source instead of using the pre-built binary:
+`gcc` and `make` are required only to compile from source.
 
 | Distro / Family | Install command |
 |---|---|
 | Debian · Ubuntu · Mint | `sudo apt-get install gcc make` |
-| Fedora / RHEL family | `sudo dnf install gcc make` |
+| Fedora · RHEL · CentOS · Rocky · AlmaLinux | `sudo dnf install gcc make` |
 | openSUSE | `sudo zypper install gcc make` |
 | Arch · Manjaro | `sudo pacman -S gcc make` |
 | Alpine | `sudo apk add gcc make musl-dev` |
