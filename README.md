@@ -37,6 +37,13 @@ ClamAV-based malware scanner for Linux. Live TUI with progress tracking, virus d
 ---
 
 ## Setup
+Make the setup script executable
+
+```bash
+chmod +x setup.sh
+```
+
+Execute the setup script
 
 ```bash
 sudo bash setup.sh
