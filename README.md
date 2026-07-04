@@ -69,7 +69,7 @@ Requires `gcc` and `clamav` / `clamav-freshclam`.
 ## Usage
 
 ```bash
-sudo clamguard                                           # interactive — prompted for all options
+sudo clamguard                                           # interactive mode
 sudo clamguard --target /home --action quarantine
 sudo clamguard --target / --profile full --accurate --action report
 sudo clamguard --target /tmp --action remove --i-accept-risk
