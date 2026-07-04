@@ -147,7 +147,7 @@ sudo mv /var/quarantine/clamguard/TIMESTAMP/path/to/file /original/path/
 
 ## Bash Fallback
 
-`clamguard.sh` provides the same feature set without requiring a C compiler.
+`clamguard.sh` provides the same feature set in your bash shell without requiring a C compiler.
 
 ```bash
 sudo bash clamguard.sh --target /home --action quarantine
